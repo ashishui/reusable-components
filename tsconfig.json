@@ -19,7 +19,13 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ng-components-vmsh": [
+        "dist/ng-components-vmsh/ng-components-vmsh",
+        "dist/ng-components-vmsh"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
